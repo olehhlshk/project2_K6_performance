@@ -1,0 +1,47 @@
+export const listBuyersQuery = `
+query listBuyers($pagination: PaginationInput, $filter: AccountsFilterInput, $sort: AccountsSortEnum)
+{
+    buyers(pagination: $pagination, filter: $filter, sort: $sort)
+    {
+        nodes
+        {
+            uid
+            contact
+            {
+                email
+                formalName
+                phone
+                __typename
+            }
+            createdAt
+            addresses
+            {
+                city
+                countryCode
+                postalCode
+                stateCode
+                streetLine1
+                streetLine2
+                type
+                uid
+                __typename
+            }
+            role
+            status
+            marketplaceUid
+            __typename
+        }
+        pagination
+        {
+            perPage
+            lastPage
+            nextPage
+            totalNodes
+            totalPages
+            currentPage
+            __typename
+        }
+        __typename
+    }
+}
+`;
