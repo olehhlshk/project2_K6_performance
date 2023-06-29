@@ -1,6 +1,6 @@
 import faker from '../libs/shim/faker.js';
 const body = `{
-    "marketplace_uid": "com_01G4YZPVBMGEPGJM4WJ6EFSXJZ",
+    "marketplace_uid": "com_01G4YZPVBM",
     "data": [
     ]
 }`;

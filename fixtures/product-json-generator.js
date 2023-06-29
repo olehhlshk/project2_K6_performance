@@ -1,6 +1,6 @@
 import faker from "../libs/shim/faker.js";
 const body = `{
-    "supplier_uid": "sup_01G3S8C9C918F16XBA0F7ZV97J",
+    "supplier_uid": "sup_01G3S8C9C91V97J",
     "data": [
     ]
 }`;
@@ -25,7 +25,7 @@ class productsJsonGenerator {
         availability_control: true,
         available_quantity: 1111,
       };
-      let brand_uid = "bra_01G51JRPX4C1H9DZ66TTBNXQNC";
+      let brand_uid = "bra_01GTTBNXQNC";
       fixture.data.push({
         sku: sku,
         name: name,

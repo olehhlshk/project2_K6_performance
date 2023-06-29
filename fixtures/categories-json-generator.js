@@ -1,6 +1,6 @@
 import faker from '../libs/shim/faker.js';
 const body = `{
-    "supplier_uid": "sup_01G3S8C9C918F16XBA0F7ZV97J",
+    "supplier_uid": "sup_010F7ZV97J",
     "data": [
     ]
 }`;

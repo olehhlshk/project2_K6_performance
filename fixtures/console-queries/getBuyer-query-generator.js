@@ -27,7 +27,7 @@ query getBuyerDetail($accountId: String!)
                 uid
                 __typename
             }
-            role
+role
             status
             marketplaceUid
             parent

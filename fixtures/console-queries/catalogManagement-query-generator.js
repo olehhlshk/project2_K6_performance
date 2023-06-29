@@ -3,23 +3,7 @@ query allowedSellerBrands($sellerUid: String!, $sort: SellerBrandsSortEnum, $pag
 {
     allowedSellerBrands(pagination: $pagination, sellerUid: $sellerUid, sort: $sort)
     {
-        nodes
-        {
-            allowed
-            sellerUid
-            brand
-            {
-                uid
-                name
-                coverImage
-                {
-                    thumbUrl
-                    __typename
-                }
-                __typename
-            }
-            __typename
-        }
+       
         pagination
         {
             perPage
@@ -37,9 +21,7 @@ query allowedSellerBrands($sellerUid: String!, $sort: SellerBrandsSortEnum, $pag
 export const detachSellerBrandQuery = `
 mutation detachSellerBrand($brandUid: String!, $sellerUid: String!)
 {
-    detachSellerBrandMutation(
-        brandUid: $brandUid,
-        sellerUid: $sellerUid)
+   
     {
         status
         __typename
@@ -50,8 +32,7 @@ export const attachSellerBrandQuery = `
 mutation attachSellerBrand($brandUid: String!, $sellerUid: String!)
 {
     attachSellerBrandMutation(
-        brandUid: $brandUid,
-        sellerUid: $sellerUid)
+     
         {
             status
             __typename

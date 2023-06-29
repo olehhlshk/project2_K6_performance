@@ -1,32 +1,32 @@
 {
     "headers": {
-      "authorization": "Token token=ZTFjMzM3ODViMzI5ZWFjNDI3NzgyMTU5MDlmYmVmYWY5MDUwNTkzODFjYWE0MjFjNmRmMjAxZjJkNjYxN2NlM2E2NWM1NTkwOGQ2MjIwMmIyZjEwMzE2ZTE2ZDFjYzA3MGY0MTM3NDkxNmEyMTFiMGI0OWFjMzdiYmVjYzBjYzY=",
+      "authorization": "Token token=ZTFjMzM3ODViMzI5ZWFjNDI3NzgyMTU5MDlmYmVmYWY5MDUwNTkzODFjYWE0MjFjNmRmMjAxZjJkNjYxN2NlM2E2NWM1NTkwOGQ2MjIwMmIyZjEwMzE2ZTE2ZDFjYzA3MGY0MTM3NDkxNmEyMTFiMGI0OWFjMz",
       "content-type": "application/json"
     },
 
-    "env_url": "https://client.uat.salonhq.co",
-    "storefront_url": "https://client.uat.salonhq.co/api/b2c",
-    "console_url": "https://client.uat.salonhq.co/api/console",
+    "env_url": "https://client.",
+    "storefront_url": "https://client.",
+    "console_url": "https://client",
     "supervisorSessionState":{
-      "session": "eyJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6ImNvbnNvbGUiLCJ1c2VyX3VpZCI6InVzZV8wMUc2TVcwSFNXUlBYWTRaSjdXMVNDNkpOSCIsInVzZXJfYWdlbnQiOiJVbmRlZmluZWQgVXNlciBBZ2VudCIsImV4cCI6MTY3NTMzNTc4OH0.BkTUW2Iltc2xLuXGdSU0GawJgJlWyd5vl_Bpx4kEw2w",
-      "marketplaceId": "com_01G77ED7TJWBV2K3C862C6MDSD",
-      "context": "acc_01G6MW6FA3YGR8F7GP33VRFVZ0"
+      "session": "eyJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6ImNvbnNvbGUiLCJ1c2VyX3VpZCI6InVzZV8wMUc2TVcwSFNXUlBYWTRaSjdXMVNDNkpOSCIsInVzZXJfYWdlbnQiOiJVbmRlZmluZWQgVXNlciBBZ2VudCIsImV4cCI6MTY3NTMzNTc4OH0.BkTUW2Iltc2xLuXGdSU0Gaw",
+      "marketplaceId": "com_01G77ED7TJWBDSD",
+      "context": "acc_01G6MW6FA3YGR8Z0"
     },
 
     "sellerSessionState":{
-      "session": "eyJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6ImNvbnNvbGUiLCJ1c2VyX3VpZCI6InVzZV8wMUdRUzhTV0ZCWFdEVFI0WFRBMk1IV1pKTiIsInVzZXJfYWdlbnQiOiJVbmRlZmluZWQgVXNlciBBZ2VudCIsImV4cCI6MTY3NTY3NTc4MH0.wVAL2AfJh94CBPkBXlzCpNkYNAG7gHKKXNFHWgv_QXY",
-      "marketplaceId": "com_01G77ED7TJWBV2K3C862C6MDSD",
-      "context": "acc_01GQS8SX19CR74YYB0CWZZSDFQ"
+      "session": "eyJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6ImNvbnNvbGUiLCJ1c2VyX3VpZCI6InVzZV8wMUdRUzhTV0ZCWFdEVFI0WFRBMk1IV1pKTiIsInVzZXJfYWdlbnQiOiJVbmRlZmluZWQgVXNlciBBZ2VudCIsImV4cCI6MTY3NTY3NTc4MH0.wVAL2AfJh9",
+      "marketplaceId": "com_01G77ED7TJWBV2KC6MDSD",
+      "context": "acc_01GQS8SX19CR7"
     },
 
     "mpoSessionState":{
-      "session": "eyJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6ImNvbnNvbGUiLCJ1c2VyX3VpZCI6InVzZV8wMUdRUzBCUVMwUEpIUTQ4RDc5VDcwU0REWSIsInVzZXJfYWdlbnQiOiJVbmRlZmluZWQgVXNlciBBZ2VudCIsImV4cCI6MTY3NTY3NDY3Nn0.ogtiFnbSTxu-Hgl7hbFv--Co_s6_0x5E7Gf1BKkdbLg",
-      "marketplaceId": "com_01G77ED7TJWBV2K3C862C6MDSD",
-      "context": "acc_01GQS0BR0S2S9XRCQ2XWM075V3"
+      "session": "eyJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6ImNvbnNvbGUiLCJ1c2VyX3VpZCI6InVzZV8wMUdRUzBCUVMwUEpIUTQ4RDc5VDcwU0REWSIsInVzZXJfYWdlbnQiOiJVbmRlZmluZWQgVXNlciBBZ2VudCIsImV4cCI6MTY3NTY3NDY3Nn0.ogtiFnbSTxu-Hgl7hbFv--Co_s6_0x",
+      "marketplaceId": "com_01G77ED7TJSD",
+      "context": "acc_01GQS0BR0S2S9XRCQ2XWM"
     },
     
     "storefrontSlugs":{
-      "storefront": "my-nam",
+      "storefront": "my-n",
       "marketplace": "mft",
       "session": "eyJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6ImJ1eWVyIiwidXNlcl91aWQiOiJ1c2VfMDFHNk1aM1gyN1kzUUg5MEFGM0s4WDVUME4iLCJ1c2VyX2FnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEwOC4wLjAuMCBTYWZhcmkvNTM3LjM2IiwiZXhwIjoxNjc0MzExNjY0fQ.TfUkcT7JyhHx7bePXQc_VTNkbpFc91QrtLmyuA2LIhQ"
     }
